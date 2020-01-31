@@ -598,3 +598,7 @@ footer
 {
     color: white;
 }
+.dropdown-menu a:hover
+{
+    background-color: #dadada00;
+}
