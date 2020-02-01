@@ -258,7 +258,7 @@ header h1 span
 
     .section_1_workshop_row
     {
-        margin-top: 150px;
+        margin-top: 200px;
     }
     .section_1_workshop_box
 {
@@ -431,6 +431,42 @@ header h1 span
     {
         height: 47vh !important;
     }
+
+
+
+    .section_1_workshop_row
+    {
+        margin-top: 180px !important;
+    }
+    .section_1_workshop_box
+{
+    position: absolute;
+    top: 10px !important;
+    width: 100% !important;
+    height: 30vh;
+    background-color: white;
+    
+    clip-path: ellipse(70% 67% at 50% 32%);
+}
+.section_1_workshop_box_1
+{
+    position: absolute;
+    top: 5px !important;
+    width: 100% !important;
+    height: 30vh;
+    background-color: #f6921d;
+    clip-path: ellipse(70% 67% at 50% 32%);
+}
+.section_1_workshop_box_3
+{
+    position: absolute;
+    top: 0px !important;
+    width: 100% !important;
+    height: 30vh;
+    padding: 0px 2px !important;
+    background-color: white;
+    clip-path: ellipse(75% 67% at 50% 32%);
+}
     
 
 
@@ -1058,6 +1094,7 @@ footer
     height: 30vh;
     background-color: white;
     clip-path: ellipse(70% 67% at 50% 32%);
+    -webkit-clip-path: ellipse(70% 67% at 50% 32%);
 }
 .section_1_workshop_box_1
 {
@@ -1068,6 +1105,7 @@ footer
     padding: 20px;
     background-color: #f6921d;
     clip-path: ellipse(70% 67% at 50% 32%);
+    -webkit-clip-path: ellipse(70% 67% at 50% 32%);
 }
 .section_1_workshop_box_3
 {
@@ -1078,4 +1116,5 @@ footer
     padding: 0px 54px !important;
     background-color: white;
     clip-path: ellipse(75% 67% at 50% 32%);
+    -webkit-clip-path: ellipse(75% 67% at 50% 32%);
 }
