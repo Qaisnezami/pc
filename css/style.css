@@ -241,6 +241,12 @@ header h1 span
     }
 
 
+    .iq_image
+    {
+        height: 47vh !important;
+    }
+
+
 
 
 
@@ -380,10 +386,29 @@ header h1 span
         height: auto !important;
     }
 
+    .iq_image
+    {
+        height: 47vh !important;
+    }
 
 
 
 
+
+}
+
+
+
+@media (min-width: 768px) {
+
+    .iq{
+
+        height: 52vh !important;
+    }
+    .iq_image
+    {
+        height: 60vh !important;
+    }
 }
 
 @media (min-width: 992px) {
@@ -504,20 +529,18 @@ header h1 span
 
         height: 50vh !important;
     }
-
-
-}
-
-
-
-
-@media (min-width: 768px) {
-
-    .iq{
-
-        height: 52vh !important;
+    .iq_image
+    {
+        height: 60vh !important;
     }
+
+
 }
+
+
+
+
+
 
 
 .services h2 span
@@ -800,7 +823,7 @@ footer
     top: -25px;
     border: 5px solid #f6921d;
     border-radius: 50%;
-    height: 60vh !important;
+    height: 60vh ;
 }
 
 
