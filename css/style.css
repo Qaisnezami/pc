@@ -430,6 +430,9 @@ header h1 span
           left: 50%;
           transform: translate(-50%,35%) !important;
         }
+        .top-header {
+            margin-top: 10px;
+        }
     .header-text{
         width: 50%;
         }
@@ -540,6 +543,27 @@ header h1 span
         height: 60vh !important;
     }
 
+
+}
+
+
+
+@media (min-width: 1400px) {
+
+    .top-header {
+        margin-top: 15px;
+    }
+
+    .header-text{
+        position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,100%) !important;
+        }
+
+    .navbar img {
+        width: 100%;
+    }
 
 }
 
