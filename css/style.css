@@ -546,9 +546,12 @@ header h1 span
 
 }
 
+.navbar
+{
+    margin-top: -20px;
+}
 
-
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
 
     .top-header {
         margin-top: 15px;
