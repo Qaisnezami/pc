@@ -248,6 +248,12 @@ header h1 span
 
 
 
+    .trust-text1 {
+        width: 50%;
+        position: relative;
+        top: 50px;
+        left: 22% !important;
+    }
 
 
 
@@ -833,7 +839,6 @@ footer
 {
     left: -11px !important;
     border: none;
-
     clip-path: circle(85.4% at 100% 51%) !important;
 }
 
@@ -842,3 +847,47 @@ footer
     border: none;
     clip-path: circle(85.4% at 100% 51%) !important;
 }
+
+
+
+
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card{
+    border: none !important;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
+}
+.accordion>.card .card-header
+{
+    margin-bottom: 0px;
+    border-bottom: none !important;
+    background-color: #f6921d;
+    color: white;
+}
+.accordion a
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+.collapsed
+{
+    background-color: #f2f2f2 !important;
+    color: black !important;
+}
+
+
+.trust-text1 {
+    width: 50%;
+    position: relative;
+    top: 50px;
+    left: 45%;
+}
+
+
