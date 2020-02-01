@@ -5,6 +5,7 @@ html,body
     padding: 0px;
     margin: 0px;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 
 }
 body
@@ -879,18 +880,11 @@ footer
 
 
 
-.accordion .card-header:after {
-    font-family: 'FontAwesome';  
-    content: "\f068";
-    float: right; 
-}
+
 .accordion .card{
     border: none !important;
 }
-.accordion .card-header.collapsed:after {
-    /* symbol for "collapsed" panels */
-    content: "\f067"; 
-}
+
 .accordion>.card .card-header
 {
     margin-bottom: 0px;
@@ -898,10 +892,22 @@ footer
     background-color: #f6921d;
     color: white;
 }
+.accordion>.card .card-header p
+{
+
+    font-size: 14px !important; 
+    font-weight: 600;
+    display: inline;
+    padding: .75rem 0rem;
+}
+.accordion>.card .card-header:hover
+{
+    cursor: pointer;
+}
 .accordion a
 {
-    font-size: 14px;
     font-weight: 600;
+    text-decoration: none;
 }
 .accordion .collapsed
 {
