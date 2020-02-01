@@ -436,7 +436,7 @@ header h1 span
 
     .section_1_workshop_row
     {
-        margin-top: 180px !important;
+        margin-top: 270px !important;
     }
     .section_1_workshop_box
 {
@@ -489,15 +489,23 @@ header h1 span
     }
     .section_1_workshop_box
     {
-        top: -110px !important;
+        top: -190px !important;
     }
     .section_1_workshop_box_1
     {
-        top: -120px !important;
+        top: -200px !important;
     }
     .section_1_workshop_box_3
     {
-        top: -130px !important;
+        top: -210px !important;
+    }
+    .section_1_workshop_row
+    {
+        margin-top: auto !important;
+    }
+    .sub-footer {
+
+        height: 30vh !important;
     }
     
 }
@@ -1118,3 +1126,49 @@ footer
     clip-path: ellipse(75% 67% at 50% 32%);
     -webkit-clip-path: ellipse(75% 67% at 50% 32%);
 }
+.section_1_workshop_row_2
+{
+    background-color: #f6921d;
+}
+.section_1_workshop_row_2 h4
+{
+    font-weight: 600;
+}
+
+.section_1_workshop_row_2 ul {
+    list-style: none;
+    color: white;
+  }
+  .section_1_workshop_row_2 ul li 
+  {
+      padding: 2px 0px;
+  }
+
+.section_2_workshop h4
+{
+    font-weight: 600;
+}
+.section_2_workshop .card a
+{
+    width: 30%;
+    padding: 10px 0px;
+    background-color: #f6921d;
+    border: 1px solid #f6921d;
+    color: white;
+    text-decoration: none;
+}
+
+.section_2_workshop .card a:hover
+{
+    width: 30%;
+    padding: 10px 0px;
+    background-color: #283d58;
+    border: 1px solid #283d58;
+}
+
+.sub-footer .btn-4:hover
+{
+    background-color: #283d58;
+    border: 1px solid #283d58;
+}
+
