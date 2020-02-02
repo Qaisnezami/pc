@@ -48,12 +48,12 @@
                                         <a class="nav-link text-white" href="workshop.html">Workshop</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a href="#" class="nav-link dropdown-toggle text-white"
+                                        <a href="computerServices.html" class="nav-link dropdown-toggle text-white"
                                             data-toggle="dropdown">Computer Service</a>
                                         <div class="dropdown-menu">
                                             <a href="businessSolutions.html" class="dropdown-item">Business
                                                 Solutions</a>
-                                            <a href="computerServices.html" class="dropdown-item">Residential
+                                            <a href="residentServies.html" class="dropdown-item">Residential
                                                 Solutions</a>
                                         </div>
                                     </li>
@@ -387,6 +387,17 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".dropdown, .btn-group").hover(function(){
+            $(".dropdown-menu").toggleClass('show');
+        });
+        $('.dropdown').click(function() {
+                window.location = $('.dropdown-toggle').attr('href')
+            });
+    });     
     </script>
 </body>
 
