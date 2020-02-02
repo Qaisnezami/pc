@@ -328,6 +328,19 @@ header h1 span {
         display: none !important;
     }
 
+    .computer_1
+    {
+        height: 50vh !important;
+    }
+    .computer_2
+    {
+        height: 50vh !important;
+    }
+    .computer_3
+    {
+        height: 50vh !important;
+        padding: 0px !important;
+    }
 
 
 
@@ -1395,4 +1408,79 @@ footer {
     color: white;
     background-color: #283d58;
     border: 1px solid #283d58;
+}
+
+.btn-7
+{
+        width: 30%;
+        padding: 10px 0px;
+        background-color: #f6921d;
+        border: 1px solid #f6921d;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+}
+.btn-7:hover
+{
+    color: white;
+    background-color: #283d58;
+    border: 1px solid #283d58;
+}
+
+
+
+
+.business_section_1 h2
+
+{
+ font-weight: 600;
+}
+.business_section_1 .card-body
+
+{
+    height: 83px;
+}
+
+.upper-text
+{
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upper-text span
+{
+    color: #f6921d;
+}
+.text-primary
+{
+    color: #f6921d !important;
+}
+.bg-primary
+{
+    background-color: #f6921d !important;
+}
+
+.it
+{
+    position: relative;
+    height: 50vh;
+    clip-path: ellipse(70% 67% at 50% 32%);
+    -webkit-clip-path: ellipse(70% 67% at 50% 32%);
+}
+.it-text
+{
+    color: white;
+    padding: 20px;
+    background-color: #18212c;
+    height: 100%;
+}
+
+.it2
+{
+    position: relative;
+    height: 50vh;
+    background-color: #f6921d ;
+    clip-path: ellipse(70% 67% at 50% 32%);
+    -webkit-clip-path: ellipse(70% 67% at 50% 32%);
 }
