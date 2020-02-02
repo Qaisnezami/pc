@@ -585,6 +585,49 @@ header h1 span {
         height: 30vh !important;
     }
 
+    .section_3_workshop_img {
+        height: 64% !important;
+    position: absolute;
+    top: 21% !important;
+    left: 5% !important;
+    }
+    .section_3_workshop .container
+    {
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+    .text-div5 {
+        height: 50vh !important;
+        
+    }
+
+    .text-div6 {
+        height: 109% !important;
+    }
+
+    .text-div5 {
+        height: 100% !important;
+        left: -20px !important;
+        border: none;
+        clip-path: circle(60% at 100% 51%) !important;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
+    
+    .text-div6 {
+        border: none;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
+
+    .trust2
+    {
+        height: 100% !important;
+    }
+
+    .section_3_workshop_text
+    {
+        margin-bottom: 41px !important;
+    }
+
 }
 
 @media (min-width: 992px) {
@@ -771,8 +814,8 @@ header h1 span {
     .section_3_workshop_img {
         height: 70vh !important;
         position: absolute;
-        top: 5%;
-        left: 20%;
+        top: 5% !important;
+        left: 20% !important;
     }
 
     .text-div5 {
@@ -858,6 +901,13 @@ header h1 span {
     {
         margin-left: -21%;
     }
+
+.section_3_workshop_img {
+    height: 70vh !important;
+    position: absolute;
+    top: 5% !important;
+    left: 5% !important;
+}
 
 }
 
