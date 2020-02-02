@@ -1,5 +1,5 @@
-html,body
-{
+html,
+body {
     width: 100%;
     height: 100%;
     padding: 0px;
@@ -8,12 +8,12 @@ html,body
     scroll-behavior: smooth;
 
 }
-body
-{
+
+body {
     font-family: 'Montserrat', sans-serif !important
 }
-.row
-{
+
+.row {
     margin: 0;
 }
 
@@ -22,9 +22,8 @@ body
 
 
 
-.slider
-{
-    background-image:url('../images/slider.jpg');
+.slider {
+    background-image: url('../images/slider.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,66 +31,66 @@ body
     width: 100%;
     height: 80vh;
     clip-path: ellipse(70% 67% at 50% 32%);
+    -webkit-clip-path: ellipse(70% 67% at 50% 32%);
 }
-.top-header
-{
+
+.top-header {
     font-weight: 600;
-    color:#f6921d !important ;
+    color: #f6921d !important;
 }
-.top-header span
-{
+
+.top-header span {
     font-weight: 500;
 
 }
 
 
-.navbar ul li a
-{
+.navbar ul li a {
     font-weight: 100;
 }
-.navbar ul li a:hover
-{
+
+.navbar ul li a:hover {
     color: #f6921d !important;
 }
 
-.btn1
-{
+.btn1 {
     border-radius: 2.25rem !important;
     border-color: #ffffff;
     color: #ffffff;
     padding: .375rem 1.75rem;
 
 }
-.btn1:hover{
-        background-color:#f6921d ;
-        border-color: white ;
+
+.btn1:hover {
+    background-color: #f6921d;
+    border-color: white;
 }
-header
-{
+
+header {
     position: relative;
 }
-.header-text{
-position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,90%) !important;
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 90%) !important;
 }
-header h1
-{
+
+header h1 {
     font-weight: 700;
 }
-header h1 span
-{
+
+header h1 span {
     font-weight: 400;
 }
-.btn2
-{
-    background-color:#f6921d ;
+
+.btn2 {
+    background-color: #f6921d;
     font-weight: 600 !important;
 }
 
-.down-header
-{
+.down-header {
     position: relative;
     top: -20px;
 }
@@ -101,149 +100,146 @@ header h1 span
 @media (max-width: 575px) {
 
 
-
-
-    .slider{
+    .slider {
         height: 60vh;
     }
-    .header-text{
+
+    .header-text {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-9%) !important;
-        }
-    .header-text
-    {
+        transform: translate(-50%, -9%) !important;
+    }
+
+    .header-text {
         width: 80%;
     }
 
-    .navbar li,a
-    {
+    .navbar li,
+    a {
         display: inline;
     }
-    .nav-link
-    {
-        display:inline;
+
+    .nav-link {
+        display: inline;
     }
-    .none-item
-    {
+
+    .none-item {
         display: none !important;
     }
-    .header-text h1
-    {
+
+    .header-text h1 {
         font-size: 26px;
     }
-    .header-p
-    {
+
+    .header-p {
         text-align: center;
         font-size: 14px !important;
     }
-    .btn2
-    {
+
+    .btn2 {
         font-size: 10px;
     }
 
-    .trust
-    {
-        height: 50vh !important;
-    }
-    .text-div
-    {
-        height: 50vh !important;
-    }
-    .text-div2
-    {
+    .trust {
         height: 50vh !important;
     }
 
-    .trust h2{
-        font-size:26px;
-    }
-    .trust p{
-        font-size:12px;
+    .text-div {
+        height: 50vh !important;
     }
 
-    .sub-footer{
+    .text-div2 {
+        height: 50vh !important;
+    }
+
+    .trust h2 {
+        font-size: 26px;
+    }
+
+    .trust p {
+        font-size: 12px;
+    }
+
+    .sub-footer {
         height: 65vh !important;
     }
-    .why-us
-    {
-            position: relative !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%,-15%) !important;
+
+    .why-us {
+        position: relative !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -15%) !important;
     }
 
-    .why-us h3{
+    .why-us h3 {
         border: none !important;
     }
 
-    .open
-    {
-        border-left:    none !important;
+    .open {
+        border-left: none !important;
     }
-    .footer-content
-    {
-        border-right:    none !important;
-    }
-    .logo
-    {
+
+    .footer-content {
         border-right: none !important;
     }
-    .logo 
-    {
+
+    .logo {
+        border-right: none !important;
+    }
+
+    .logo {
         position: relative !important;
         top: 30% !important;
         left: 50% !important;
-  transform: translate(-16%,-50%) !important;
+        transform: translate(-16%, -50%) !important;
     }
-    .social
-    {
+
+    .social {
         text-align: center;
     }
 
 
     .trust-text {
-        width: 79% !important ;
+        width: 79% !important;
         position: relative !important;
         top: 50px !important;
         left: 11px !important;
     }
 
-    .section_cybersecurity_1
-    {
+    .section_cybersecurity_1 {
         width: 100% !important;
     }
-    .section_cybersecurity_1 h4
-    {
+
+    .section_cybersecurity_1 h4 {
         font-weight: 600 !important;
         font-size: 14px;
         width: 100% !important;
 
     }
-    .section_cybersecurity_1 p
-    {
+
+    .section_cybersecurity_1 p {
         width: 87% !important;
         font-size: 13px !important;
 
     }
 
-    .section_cybersecurity_1 .btn-primary{
+    .section_cybersecurity_1 .btn-primary {
         font-size: 11px !important;
     }
-    .section_cybersecurity_1 .btn-success{
+
+    .section_cybersecurity_1 .btn-success {
         font-size: 11px !important;
     }
 
 
-    .iq{
+    .iq {
 
         height: auto !important;
     }
 
 
-    .iq_image
-    {
+    .iq_image {
         height: 39vh !important;
     }
 
@@ -256,221 +252,301 @@ header h1 span
         left: 22% !important;
     }
 
-    .section_1_workshop_row
-    {
+    .section_1_workshop_row {
         margin-top: 210px;
     }
-    .section_1_workshop_box
-{
-    position: absolute;
-    top: 10px !important;
-    width: 100% !important;
-    height: 30vh;
-    background-color: white;
+
+    .section_1_workshop_box {
+        position: absolute;
+        top: 10px !important;
+        width: 100% !important;
+        height: 30vh;
+        background-color: white;
+
+        clip-path: ellipse(70% 67% at 50% 32%);
+        -webkit-clip-path: ellipse(70% 67% at 50% 32%);
+    }
+
+    .section_1_workshop_box_1 {
+        position: absolute;
+        top: 5px !important;
+        width: 100% !important;
+        height: 30vh;
+        background-color: #f6921d;
+        clip-path: ellipse(70% 67% at 50% 32%);
+        -webkit-clip-path: ellipse(70% 67% at 50% 32%);
+    }
+
+    .section_1_workshop_box_3 {
+        position: absolute;
+        top: 0px !important;
+        width: 100% !important;
+        height: 30vh;
+        padding: 0px 2px !important;
+        background-color: white;
+        clip-path: ellipse(75% 67% at 50% 32%);
+        -webkit-clip-path: ellipse(75% 67% at 50% 32%);
+    }
+
+
+    .section_3_workshop_img {
+        height: 45vh !important;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+    }
+
+
+    .text-div5 {
+        left: -11px !important;
+        border: none;
+        clip-path: circle(60% at 100% 51%) !important;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
     
-    clip-path: ellipse(70% 67% at 50% 32%);
+    .text-div6 {
+        border: none;
+        clip-path: circle(60% at 100% 51%) !important;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
+
+    .trust2
+    {
+        height: 100% !important;
+        padding-bottom: 40px !important;
+    }
+    .trust2 img:first-child
+    {
+        display: none;
+    }
+    .text-div5
+    {
+        display: none !important;
+    }
+    .text-div6
+    {
+        display: none !important;
+    }
+
+
+
+
+
+
 }
-.section_1_workshop_box_1
-{
-    position: absolute;
-    top: 5px !important;
-    width: 100% !important;
-    height: 30vh;
-    background-color: #f6921d;
-    clip-path: ellipse(70% 67% at 50% 32%);
-}
-.section_1_workshop_box_3
-{
-    position: absolute;
-    top: 0px !important;
-    width: 100% !important;
-    height: 30vh;
-    padding: 0px 2px !important;
-    background-color: white;
-    clip-path: ellipse(75% 67% at 50% 32%);
-}
-    
 
-
-
-
-
-
-
-
-    
-}
 @media (min-width: 576px) {
 
 
-
-    .slider{
-         height: 50vh;;
+    .slider {
+        height: 50vh;
+        ;
     }
-    .header-text{
+
+    .header-text {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-10%) !important;
-        }  
-    .header-text
-    {
+        transform: translate(-50%, -10%) !important;
+    }
+
+    .header-text {
         width: 60%;
-    } 
-    .btn1
-    {
+    }
+
+    .btn1 {
         margin-left: 0px !important;
     }
-    .header-text h1
-    {
+
+    .header-text h1 {
         font-size: 30px;
     }
 
-    .header-p
-    {
+    .header-p {
         text-align: center;
         font-size: 10px !important;
     }
-    .btn2
-    {
+
+    .btn2 {
         font-size: 10px;
     }
-    .trust
-    {
+
+    .trust {
         height: 100vh !important;
     }
-    .text-div
-    {
+
+    .text-div {
         height: 100vh !important;
     }
-    .text-div2
-    {
+
+    .text-div2 {
         height: 100vh !important;
     }
-    .trust h2{
-        font-size:30px;
+
+    .trust h2 {
+        font-size: 30px;
     }
-    .trust p{
-        font-size:12px;
+
+    .trust p {
+        font-size: 12px;
     }
-    .sub-footer{
+
+    .sub-footer {
         height: 100vh !important;
     }
-    .why-us
-    {
+
+    .why-us {
         position: relative !important;
-  top: 50% !important;
-  left: 50% !important;
-  transform: translate(-50%,-15%) !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -15%) !important;
     }
 
 
 
-    .why-us h3{
+    .why-us h3 {
         border: none !important;
     }
 
-    .open
-    {
-        border-left:    none !important;
+    .open {
+        border-left: none !important;
     }
-    .footer-content
-    {
-        border-right:    none !important;
-    }
-    .logo
-    {
+
+    .footer-content {
         border-right: none !important;
     }
-    .logo 
-    {
+
+    .logo {
+        border-right: none !important;
+    }
+
+    .logo {
         position: relative !important;
         top: 30% !important;
         left: 50% !important;
-  transform: translate(-10%,-50%) !important;
+        transform: translate(-10%, -50%) !important;
     }
-    .social
-    {
+
+    .social {
         text-align: center;
     }
 
 
-    .section_cybersecurity_1
-    {
+    .section_cybersecurity_1 {
         width: 100% !important;
     }
-    .section_cybersecurity_1 h4
-    {
+
+    .section_cybersecurity_1 h4 {
         font-weight: 600 !important;
         font-size: 14px;
         width: 100% !important;
 
     }
-    .section_cybersecurity_1 p
-    {
+
+    .section_cybersecurity_1 p {
         width: 87% !important;
         font-size: 13px !important;
 
     }
 
-    .section_cybersecurity_1 .btn-primary{
+    .section_cybersecurity_1 .btn-primary {
         font-size: 11px !important;
     }
-    .section_cybersecurity_1 .btn-success{
+
+    .section_cybersecurity_1 .btn-success {
         font-size: 10px !important;
     }
 
 
 
-    .iq{
+    .iq {
 
         height: auto !important;
     }
 
-    .iq_image
-    {
+    .iq_image {
         height: 47vh !important;
     }
 
 
 
-    .section_1_workshop_row
-    {
+    .section_1_workshop_row {
         margin-top: 270px !important;
     }
-    .section_1_workshop_box
-{
-    position: absolute;
-    top: 10px !important;
-    width: 100% !important;
-    height: 30vh;
-    background-color: white;
+
+    .section_1_workshop_box {
+        position: absolute;
+        top: 10px !important;
+        width: 100% !important;
+        height: 30vh;
+        background-color: white;
+
+        clip-path: ellipse(70% 67% at 50% 32%);
+        -webkit-clip-path: ellipse(70% 67% at 50% 32%);
+    }
+
+    .section_1_workshop_box_1 {
+        position: absolute;
+        top: 5px !important;
+        width: 100% !important;
+        height: 30vh;
+        background-color: #f6921d;
+        clip-path: ellipse(70% 67% at 50% 32%);
+        -webkit-clip-path: ellipse(70% 67% at 50% 32%);
+    }
+
+    .section_1_workshop_box_3 {
+        position: absolute;
+        top: 0px !important;
+        width: 100% !important;
+        height: 30vh;
+        padding: 0px 2px !important;
+        background-color: white;
+        clip-path: ellipse(75% 67% at 50% 32%);
+        -webkit-clip-path: ellipse(75% 67% at 50% 32%);
+    }
+
+    .section_3_workshop_img {
+        height: 43vh !important;
+        position: absolute;
+        top: 5%;
+        left: 5% !important;
+    }
+    .section_3_workshop .container
+    {
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+    .text-div5 {
+        height: 50vh !important;
+        
+    }
+
+    .text-div6 {
+        height: 50vh !important;
+    }
+
+    .text-div5 {
+        left: -20px !important;
+        border: none;
+        clip-path: circle(60% at 100% 51%) !important;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
     
-    clip-path: ellipse(70% 67% at 50% 32%);
-}
-.section_1_workshop_box_1
-{
-    position: absolute;
-    top: 5px !important;
-    width: 100% !important;
-    height: 30vh;
-    background-color: #f6921d;
-    clip-path: ellipse(70% 67% at 50% 32%);
-}
-.section_1_workshop_box_3
-{
-    position: absolute;
-    top: 0px !important;
-    width: 100% !important;
-    height: 30vh;
-    padding: 0px 2px !important;
-    background-color: white;
-    clip-path: ellipse(75% 67% at 50% 32%);
-}
-    
+    .text-div6 {
+        border: none;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
 
+    .trust2
+    {
+        height: 100% !important;
+    }
 
-
+    .section_3_workshop_text
+    {
+        margin-bottom: 41px !important;
+    }
 
 
 }
@@ -479,201 +555,256 @@ header h1 span
 
 @media (min-width: 768px) {
 
-    .iq{
+    .iq {
 
         height: 52vh !important;
     }
-    .iq_image
-    {
+
+    .iq_image {
         height: 60vh !important;
     }
-    .section_1_workshop_box
-    {
+
+    .section_1_workshop_box {
         top: -190px !important;
     }
-    .section_1_workshop_box_1
-    {
+
+    .section_1_workshop_box_1 {
         top: -200px !important;
     }
-    .section_1_workshop_box_3
-    {
+
+    .section_1_workshop_box_3 {
         top: -210px !important;
     }
-    .section_1_workshop_row
-    {
+
+    .section_1_workshop_row {
         margin-top: auto !important;
     }
+
     .sub-footer {
 
         height: 30vh !important;
     }
-    
+
 }
 
 @media (min-width: 992px) {
 
 
 
-    .slider{
-        height:82vh;
+    .slider {
+        height: 82vh;
     }
-    .header-text{
+
+    .header-text {
         position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%,35%) !important;
-        }
-        .header-workshop
-        {
-            transform: translate(-50%,100%) !important;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 35%) !important;
+    }
 
-        }
-        
-        .top-header {
-            margin-top: 10px;
-        }
-    .header-text{
+    .header-workshop {
+        transform: translate(-50%, 100%) !important;
+
+    }
+
+    .top-header {
+        margin-top: 10px;
+    }
+
+    .header-text {
         width: 50%;
-        }
+    }
 
-    .header-text h1
-    {
+    .header-text h1 {
         font-size: 36px !important;
     }
-    .header-p
-    {
+
+    .header-p {
         font-size: 16px !important;
     }
-    .btn2
-    {
+
+    .btn2 {
         font-size: 16px;
     }
-    .trust
-    {
+
+    .trust {
         height: 80vh !important;
     }
-    .text-div
-    {
+
+    .text-div {
         height: 80vh !important;
     }
-    .text-div2
-    {
+
+    .text-div2 {
         height: 80vh !important;
     }
-    .trust h2{
-        font-size:36px;
+
+    .trust h2 {
+        font-size: 36px;
     }
-    .trust p{
-        font-size:16px;
+
+    .trust p {
+        font-size: 16px;
     }
-    .sub-footer{
+
+    .sub-footer {
         height: 40vh !important;
     }
-    .why-us
-    {
+
+    .why-us {
         position: relative !important;
         top: 50% !important;
         left: 50% !important;
-        transform: translate(-50%,-50%) !important;
+        transform: translate(-50%, -50%) !important;
     }
 
-    .why-us h3{
+    .why-us h3 {
         border: none !important;
     }
 
 
-    .open
-    {
+    .open {
         border-left: 2px solid #d3d5d8 !important;
     }
-    .footer-content
-    {
-        border-right: 2px solid #d3d5d8 !important;
-    }
-    .logo
-    {
+
+    .footer-content {
         border-right: 2px solid #d3d5d8 !important;
     }
 
-    .logo 
-    {
+    .logo {
+        border-right: 2px solid #d3d5d8 !important;
+    }
+
+    .logo {
         position: relative !important;
         top: 30% !important;
         left: 50% !important;
-        transform: translate(-50%,-66%) !important;
+        transform: translate(-50%, -66%) !important;
     }
-    .social
-    {
+
+    .social {
         text-align: left;
     }
 
-    .section_cybersecurity_1
-    {
+    .section_cybersecurity_1 {
         width: 63%;
     }
-    .section_cybersecurity_1 h4
-    {
+
+    .section_cybersecurity_1 h4 {
         font-weight: 600 !important;
         width: 95% !important;
         font-size: 24px;
 
     }
-    .section_cybersecurity_1 p
-    {
+
+    .section_cybersecurity_1 p {
         width: 87%;
         font-size: 13px !important;
 
     }
 
-    .section_cybersecurity_1 .btn-primary{
+    .section_cybersecurity_1 .btn-primary {
         font-size: 16px !important;
     }
-    .section_cybersecurity_1 .btn-success{
+
+    .section_cybersecurity_1 .btn-success {
         font-size: 16px !important;
     }
 
 
-    .iq{
+    .iq {
 
         height: 50vh !important;
     }
-    .iq_image
-    {
+
+    .iq_image {
         height: 60vh !important;
     }
 
-    .header-workshop h1
-        {
-            font-size: 50px !important;
-            
-        }
-        .section_1_workshop h2
-        {
-            width: 80%!important;
-            font-weight: 600;
+    .header-workshop h1 {
+        font-size: 50px !important;
 
-        }
+    }
 
+    .section_1_workshop h2 {
+        width: 80% !important;
+        font-weight: 600;
+
+    }
 
 
-        .section_1_workshop_box
-    {
+
+    .section_1_workshop_box {
         top: -140px !important;
     }
-    .section_1_workshop_box_1
-    {
+
+    .section_1_workshop_box_1 {
         top: -153px !important;
     }
-    .section_1_workshop_box_3
-    {
+
+    .section_1_workshop_box_3 {
         top: -160px !important;
     }
+
+    .text-div5 {
+        clip-path: circle(60% at 100% 51%) !important;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
+
+    .text-div6 {
+        clip-path: circle(60% at 100% 51%) !important;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
+
+    .text-div5 {
+        left: -16px !important;
+        border: none;
+        clip-path: circle(100% at 100% 51%) !important;
+        -webkit-clip-path: circle(100% at 100% 51%) !important;
+    }
+    
+    .text-div6 {
+        border: none;
+        clip-path: circle(100% at 100% 51%) !important;
+        -webkit-clip-path: circle(100% at 100% 51%) !important;
+    }
+    .section_3_workshop_img {
+        height: 70vh !important;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+    }
+
+    .text-div5 {
+        left: -20px !important;
+        border: none;
+        clip-path: circle(60% at 100% 51%) !important;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
+    
+    .text-div6 {
+        border: none;
+        -webkit-clip-path: circle(60% at 100% 51%) !important;
+    }
+    
+    .section_3_workshop_text
+    {
+        margin-top: 89px !important;
+    }
+
+    .section_3_workshop_text
+    {
+        margin-left: -10%;
+    }
+
+
+
+
 
 
 }
 
-.navbar
-{
+.navbar {
     margin-top: -20px;
 }
 
@@ -683,47 +814,50 @@ header h1 span
         margin-top: 15px;
     }
 
-    .header-text{
+    .header-text {
         position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%,100%) !important;
-        }
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 100%) !important;
+    }
 
     .navbar img {
         width: 100%;
     }
-    .header-workshop
-        {
-            transform: translate(-50%,100%) !important;
-            
-        }
-    .header-workshop h1
-        {
-            font-size: 60px !important;
-            
-        }
+
+    .header-workshop {
+        transform: translate(-50%, 100%) !important;
+
+    }
+
+    .header-workshop h1 {
+        font-size: 60px !important;
+
+    }
 
 
-        .section_1_workshop h2
-        {
-            width: 80%!important;
-            font-weight: 600;
+    .section_1_workshop h2 {
+        width: 80% !important;
+        font-weight: 600;
 
-        }
+    }
 
-        .section_1_workshop_box
-        {
-            top: -170px !important;
-        }
-        .section_1_workshop_box_1
-        {
-            top: -183px !important;
-        }
-        .section_1_workshop_box_3
-        {
-            top: -190px !important;
-        }
+    .section_1_workshop_box {
+        top: -170px !important;
+    }
+
+    .section_1_workshop_box_1 {
+        top: -183px !important;
+    }
+
+    .section_1_workshop_box_3 {
+        top: -190px !important;
+    }
+
+    .section_3_workshop_text
+    {
+        margin-left: -21%;
+    }
 
 }
 
@@ -733,30 +867,28 @@ header h1 span
 
 
 
-.services h2 span
-{
+.services h2 span {
     font-weight: 600;
 }
 
-.card h5
-{
+.card h5 {
     font-weight: 600;
 }
-.card p
-{
+
+.card p {
     font-weight: 400;
     font-size: 14px !important;
 }
 
-.card a{
+.card a {
     font-weight: 600;
-    color:#f6921d ;
+    color: #f6921d;
     text-decoration: underline;
     font-size: 12px;
 }
 
-.trust{
-    background-image:url('../images/trust.jpeg');
+.trust {
+    background-image: url('../images/trust.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -764,9 +896,10 @@ header h1 span
     width: 100%;
     height: 100vh;
 }
-.text-div{
+
+.text-div {
     position: relative;
-    background-color:#f6921d;
+    background-color: #f6921d;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -775,11 +908,13 @@ header h1 span
     height: 100vh;
     border-right: 10px solid #f9ac38;
     clip-path: circle(89.6% at 0 51%);
+    -webkit-clip-path: circle(89.6% at 0 51%);
 }
-.text-div2{
+
+.text-div2 {
     position: absolute;
     left: 10px;
-    background-color:#faac39;
+    background-color: #faac39;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -788,39 +923,38 @@ header h1 span
     height: 100vh;
     border-right: 10px solid #f9ac38;
     clip-path: circle(89.6% at 0 51%);
+    -webkit-clip-path: circle(89.6% at 0 51%);
     z-index: 0;
 }
-.trust-text
-{
+
+.trust-text {
     width: 50%;
     position: relative;
     top: 50px;
     left: 100px;
 }
-.trust h2 span
-{
+
+.trust h2 span {
     font-weight: 700;
 }
 
-.sub-footer
-{
+.sub-footer {
 
-    background-image:url('../images/sub_footer.jpg');
+    background-image: url('../images/sub_footer.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 0px;
     width: 100%;
     height: 60vh;
-    
+
 }
 
-.sub-footer h3
-{
+.sub-footer h3 {
     font-weight: 700;
 }
-.sub-footer input
-{
+
+.sub-footer input {
     display: block;
     width: 100%;
     height: calc(2.25rem + 2px);
@@ -832,10 +966,10 @@ header h1 span
     background-clip: padding-box;
     border-radius: 3px;
     border: 1px solid #ced4da;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-.sub-footer button
-{
+
+.sub-footer button {
     font-weight: bold;
     background-color: #f6921d;
     border-color: #f6921d;
@@ -847,76 +981,75 @@ header h1 span
 
 .why-us {
     position: relative;
-  top: 50%;
-  left: 50%;
-  
+    top: 50%;
+    left: 50%;
+
     background-color: #f6921d;
     width: 90%;
 }
-.why-us h3{
+
+.why-us h3 {
     border-right: 2px solid #ffffff;
     font-weight: bold;
     color: #ffffff;
 }
-.why-us p 
-{
+
+.why-us p {
 
     display: inline-block;
     font-size: 14px;
     margin: 0;
 }
 
-footer
-{
+footer {
     background-color: #f0f0f0;
 }
-.logo p
-{
-    
+
+.logo p {
+
     font-size: 10px;
 }
-.social ul , .social li,.social a
-{
+
+.social ul,
+.social li,
+.social a {
     display: inline;
-    color:#f6921d ;
+    color: #f6921d;
     padding-left: 10px;
 }
-.logo
-{
+
+.logo {
     border-right: 2px solid #d3d5d8;
 }
 
-.main-footer i
-{
-    color:#f6921d ;
+.main-footer i {
+    color: #f6921d;
 }
 
-.main-footer  h5
-{
+.main-footer h5 {
     font-weight: 600;
 }
-.footer-content
-{
+
+.footer-content {
     border-right: 2px solid #d3d5d8;
     padding-bottom: 1px;
 }
-.area a
-{
+
+.area a {
     font-size: 14px;
     color: black;
 }
 
-.area a:hover
-{
+.area a:hover {
     text-decoration: none;
-    color: #f6921d ;
+    color: #f6921d;
 }
 
-.open
-{
+.open {
     border-left: 2px solid #d3d5d8;
     padding-bottom: 14px;
 }
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -937,67 +1070,64 @@ footer
     border-radius: .25rem;
 }
 
-.dropdown-menu a
-{
+.dropdown-menu a {
     color: white;
 }
-.dropdown-menu a:hover
-{
+
+.dropdown-menu a:hover {
     background-color: #dadada00;
 }
-.section_cybersecurity_1
-{
+
+.section_cybersecurity_1 {
     width: 63%;
     margin-bottom: 100px !important;
 }
-.section_cybersecurity_1 h4
-{
+
+.section_cybersecurity_1 h4 {
     font-weight: 600;
     width: 95%;
 
 }
-.section_cybersecurity_1 p
-{
+
+.section_cybersecurity_1 p {
     width: 87%;
     font-size: 13px;
 
 }
 
-.section_cybersecurity_1 a{
+.section_cybersecurity_1 a {
     font-weight: 600;
-    color:#f6921d ;
+    color: #f6921d;
     text-decoration: underline;
     font-size: 11px;
 }
 
-.section_cybersecurity_1 .btn-primary
-{
+.section_cybersecurity_1 .btn-primary {
     background-color: #f6921d !important;
     font-weight: 600 !important;
-    color:white ;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     border: none;
-    
+
 }
 
 
 
-.section_cybersecurity_1 .btn-success 
-{
+.section_cybersecurity_1 .btn-success {
     background-color: #283d58 !important;
     font-weight: 600 !important;
-    color:white ;
+    color: white;
     text-decoration: none;
     font-size: 16px;
     border: none;
-    
+
 }
 
 
-.iq{
+.iq {
     position: relative;
-    background-image:url('../images/IQ.jpg');
+    background-image: url('../images/IQ.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1007,29 +1137,28 @@ footer
     margin-bottom: 100px !important
 }
 
-.iq_image
-{
+.iq_image {
     position: relative;
     top: -25px;
     border: 5px solid #f6921d;
     border-radius: 50%;
-    height: 60vh ;
+    height: 60vh;
 }
 
 
 
 
-.text-div3
-{
+.text-div3 {
     left: -11px !important;
     border: none;
     clip-path: circle(85.4% at 100% 51%) !important;
+    -webkit-clip-path: circle(85.4% at 100% 51%) !important;
 }
 
-.text-div4
-{
+.text-div4 {
     border: none;
     clip-path: circle(85.4% at 100% 51%) !important;
+    -webkit-clip-path: circle(85.4% at 100% 51%) !important;
 }
 
 
@@ -1037,36 +1166,35 @@ footer
 
 
 
-.accordion .card{
+.accordion .card {
     border: none !important;
 }
 
-.accordion>.card .card-header
-{
+.accordion>.card .card-header {
     margin-bottom: 0px;
     border-bottom: none !important;
     background-color: #f6921d;
     color: white;
 }
-.accordion>.card .card-header p
-{
 
-    font-size: 14px !important; 
+.accordion>.card .card-header p {
+
+    font-size: 14px !important;
     font-weight: 600;
     display: inline;
     padding: .75rem 0rem;
 }
-.accordion>.card .card-header:hover
-{
+
+.accordion>.card .card-header:hover {
     cursor: pointer;
 }
-.accordion a
-{
+
+.accordion a {
     font-weight: 600;
     text-decoration: none;
 }
-.accordion .collapsed
-{
+
+.accordion .collapsed {
     background-color: #f2f2f2 !important;
     color: black !important;
 }
@@ -1079,23 +1207,22 @@ footer
     left: 45%;
 }
 
-.section_1_workshop h2
-{
+.section_1_workshop h2 {
     font-weight: 600;
 
 }
-.section_1_workshop span
-{
-    color:#f6921d;
+
+.section_1_workshop span {
+    color: #f6921d;
     font-weight: 600;
 
 }
-.section_1_workshop_row
-{
+
+.section_1_workshop_row {
     background-color: #283d58;
 }
-.section_1_workshop_box
-{
+
+.section_1_workshop_box {
     position: absolute;
     top: -160px;
     width: 100%;
@@ -1104,8 +1231,8 @@ footer
     clip-path: ellipse(70% 67% at 50% 32%);
     -webkit-clip-path: ellipse(70% 67% at 50% 32%);
 }
-.section_1_workshop_box_1
-{
+
+.section_1_workshop_box_1 {
     position: absolute;
     top: -173px;
     width: 100%;
@@ -1115,8 +1242,8 @@ footer
     clip-path: ellipse(70% 67% at 50% 32%);
     -webkit-clip-path: ellipse(70% 67% at 50% 32%);
 }
-.section_1_workshop_box_3
-{
+
+.section_1_workshop_box_3 {
     position: absolute;
     top: -180px;
     width: 100%;
@@ -1126,30 +1253,29 @@ footer
     clip-path: ellipse(75% 67% at 50% 32%);
     -webkit-clip-path: ellipse(75% 67% at 50% 32%);
 }
-.section_1_workshop_row_2
-{
+
+.section_1_workshop_row_2 {
     background-color: #f6921d;
 }
-.section_1_workshop_row_2 h4
-{
+
+.section_1_workshop_row_2 h4 {
     font-weight: 600;
 }
 
 .section_1_workshop_row_2 ul {
     list-style: none;
     color: white;
-  }
-  .section_1_workshop_row_2 ul li 
-  {
-      padding: 2px 0px;
-  }
+}
 
-.section_2_workshop h4
-{
+.section_1_workshop_row_2 ul li {
+    padding: 2px 0px;
+}
+
+.section_2_workshop h4 {
     font-weight: 600;
 }
-.section_2_workshop .card a
-{
+
+.section_2_workshop .card a {
     width: 30%;
     padding: 10px 0px;
     background-color: #f6921d;
@@ -1158,17 +1284,65 @@ footer
     text-decoration: none;
 }
 
-.section_2_workshop .card a:hover
-{
+.section_2_workshop .card a:hover {
     width: 30%;
     padding: 10px 0px;
     background-color: #283d58;
     border: 1px solid #283d58;
 }
 
-.sub-footer .btn-4:hover
-{
+.sub-footer .btn-4:hover {
     background-color: #283d58;
     border: 1px solid #283d58;
 }
 
+.section_3_workshop_img {
+    height: 73vh;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+}
+
+.text-div5 {
+    border: none;
+}
+
+.text-div6 {
+    border: none;
+}
+
+.section_3_workshop .form-control {
+    display: block;
+    width: 90% !important;
+    margin-right: auto !important;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f2f2f2;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+.section_3_workshop button
+{
+        width: 30%;
+        padding: 10px 0px;
+        background-color: #f6921d;
+        border: 1px solid #f6921d;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+}
+.section_3_workshop button:hover
+{
+    color: white;
+    background-color: #283d58;
+    border: 1px solid #283d58;
+}
