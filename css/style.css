@@ -1809,3 +1809,128 @@ footer {
     background-color: #283d58;
     border: 1px solid #283d58;
 }
+
+
+
+
+
+
+
+.ticket .form-section {
+    padding: 35px;
+}
+.ticket .ticket-title {
+    padding: 20px;
+}
+.ticket .ticket-title > p {
+    font-size: 26px;
+}
+
+.ticket .tab-pane {
+    padding: 20px;
+    background-color: #f6f7f9;
+}
+.form-control {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.ticket #myClassicTab {
+    margin-left: 33%;
+}
+
+.ticket .nav-item > .nav-link {
+    color: black;
+    font-size: 14px;
+    margin-bottom: -10px;
+}
+
+.ticket .nav-item > .active {
+    position: relative;
+    background-color: #faac39;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+
+
+.ticket .myClassicTabContent {
+    padding: 15px;
+}
+
+.ticket .request-form {
+    padding: 30px;
+    padding-top: 20px;
+}
+
+.ticket .nav-item > .nav-link:hover > .down-arrow:hover {
+    content: "";
+    margin: 0 0.5em;
+    display: inline-block;
+    border: 7px solid transparent;
+    border-top: 8px solid gray;
+    border-bottom: 0 none;
+}
+
+.ticket .one {
+    border-top: 2px solid #f59221;
+    max-width: 48.8% !important;
+    margin-left: 16px;
+}
+
+.ticket .one-1 {
+    border-top: 2px solid #b86a11;
+    max-width: 48.5% !important;
+}
+
+.ticket .form-section .form-group .form-control {
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+}
+
+.ticket .form-section .form-group label {
+    font-weight: 100;
+}
+
+::placeholder {
+    font-weight: 100;
+}
+
+.ticket .form-section .form-group .form-control option {
+    font-weight: 100;
+}
+
+.ticket .form-section textarea {
+    margin-top: 10px;
+}
+
+.ticket .form-section .col-lg-6 {
+    margin-top: 10px;
+}
+
+
+.ticket button {
+    width: 20%;
+    padding: 10px 0px;
+    background-color: #f6921d;
+    border: 1px solid #f6921d;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.ticket button:hover {
+    color: white;
+    background-color: #283d58;
+    border: 1px solid #283d58;
+}
