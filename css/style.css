@@ -1011,7 +1011,21 @@ header h1 span {
         margin-bottom: 200px !important;
     }
 
-
+    .contactUS_box
+    {
+        height: 60vh !important;
+        top: -350px !important;
+    }
+    .contactUS_box_1
+    {
+        height: 60vh !important;
+        top: -360px !important;
+    }
+    .contactUS_box_2
+    {
+        height: 60vh !important;
+        top: -370px !important;
+    }
 
 
 
@@ -1126,7 +1140,21 @@ header h1 span {
     margin-bottom: 200px !important;
 }
 
-
+.contactUS_box
+    {
+        height: 50vh !important;
+        top: -380px !important;
+    }
+    .contactUS_box_1
+    {
+        height: 50vh !important;
+        top: -390px !important;
+    }
+    .contactUS_box_2
+    {
+        height: 50vh !important;
+        top: -400px !important;
+    }
 
 
 
