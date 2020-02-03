@@ -1491,9 +1491,10 @@ footer {
 .accordion a {
     font-weight: 600;
     text-decoration: none;
+    font-size: 14px;
 }
 
-.accordion .collapsed {
+.accordion .collapsed  {
     background-color: #f2f2f2 !important;
     color: black !important;
 }
