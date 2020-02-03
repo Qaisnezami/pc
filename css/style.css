@@ -1735,3 +1735,49 @@ footer {
 {
     font-weight: 600;
 }
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important;
+    height: 500px;
+    width: 100% !important;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 100% !important;
+}
+
+
+
+.contactUs_form .form-control {
+    display: block;
+    width: 90% !important;
+    margin-right: auto !important;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f2f2f2;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0px !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contactUs_form button {
+    width: 30%;
+    padding: 10px 0px;
+    background-color: #f6921d;
+    border: 1px solid #f6921d;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.contactUs_form button:hover {
+    color: white;
+    background-color: #283d58;
+    border: 1px solid #283d58;
+}
