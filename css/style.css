@@ -1920,6 +1920,7 @@ footer {
 }
 
 
+
 .ticket button {
     width: 20%;
     padding: 10px 0px;
@@ -1933,4 +1934,25 @@ footer {
     color: white;
     background-color: #283d58;
     border: 1px solid #283d58;
+}
+
+.top-header a:hover
+{
+    text-decoration: none;
+    color: #f6921d !important;
+}
+.top-header a
+{
+    text-decoration: none;
+    color: #f6921d !important;
+}
+.general a:hover
+{
+    text-decoration: none;
+    color: #f6921d !important;
+}
+.general a
+{
+    text-decoration: none;
+    color: #f6921d !important;
 }
